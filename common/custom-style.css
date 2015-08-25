@@ -1,0 +1,8 @@
+/* Range */
+.range-custom::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background: #108A93 !important;
+    height:30px !important;
+    width:30px !important;
+    border-radius: 15px !important;
+}
