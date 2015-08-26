@@ -8,7 +8,7 @@ Connect Arietta G25 to your PC using an USB cable, connect to it via SSH using "
 
 Clone this repository using git clone and then enter in the "utils" folder: cd /wi-lamp/utils
 
-Launch the setup script : bash setup.sh YourWiFiName YourWifiPassword WPA
+Launch the setup script : bash setup.sh YourWiFiName YourWifiPassword WPA (if you have WEP connection: use "WEP" instead "WPA")
 
 Wait until the setup is complete, this can take up to 40 minutes.
 
