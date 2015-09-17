@@ -4,7 +4,7 @@ case "$1" in
   start)
     echo "Starting the controller"
     # run application you want to start
-    ls /sys/bus/w1/devices/w1_bus_master1 | grep 28 > /var/www/wi-lamp/storage/temperature_sensor
+    ls /sys/bus/w1/devices/w1_bus_master1 | grep 28 > /var/www/storage/temperature_sensor
     
     echo 0 > /sys/class/pwm/pwmchip0/export
     echo 1 > /sys/class/pwm/pwmchip0/export
